@@ -12,7 +12,7 @@ import java.math.BigInteger;
 public class CustomDimensionRequest {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "request_id")
     private Long id;
 

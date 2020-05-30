@@ -24,7 +24,7 @@ public class DemoSpringBootApplicationTests {
 	@Test
 	public void contextLoads() throws JsonProcessingException {
 
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < 100; i++) {
 			 CustomDimensionRequest customDimensionRequest = new CustomDimensionRequest();
 
 			 customDimensionRequest.setId(i + 1l);
